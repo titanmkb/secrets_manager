@@ -1,0 +1,16 @@
+{
+  "name": "secret_manager",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-secrets-manager": "^3.231.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "helmet": "^6.0.1"
+  },
+  "scripts": {
+    "start:dev": "export NODE_ENV=development && node index.js",
+    "start": "export NODE_ENV=production && node index.js"
+  }
+}
